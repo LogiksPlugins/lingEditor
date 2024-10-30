@@ -101,7 +101,7 @@ function resetFile() {
 	});
 }
 function createNew() {
-	lgksPrompt("Please give the new file name.<br>Please save the before you do this.","New File",function(ans) {
+	lgksPrompt("Please give the new file name.<br>Please save, before you do this.","New File",function(ans) {
 		if(ans!=null && ans.length>0) {
 			currentFile=ans;
 			newFile=true;
